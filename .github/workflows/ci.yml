@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         npm install --no-package-lock
-        npm install rollup@latest @rollup/rollup-linux-x64-gnu
+        npm install @esbuild/linux-x64 rollup@latest @rollup/rollup-linux-x64-gnu
 
     - name: Build
       run: npm run build

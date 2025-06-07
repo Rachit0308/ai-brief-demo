@@ -12,7 +12,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Router>
+        <Router basename="/ai-brief-demo">
           <Layout>
             <AppRoutes />
           </Layout>
